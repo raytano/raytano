@@ -5,8 +5,7 @@
 }
 body{
 	font-family: 'Nunito', sans-serif;
-	font-family: 'Roboto', sans-serif;
-	background-color: #ffdcdc;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -43,7 +42,7 @@ p {
 .container{
 	max-width: 1300px;
 	margin: auto;
-	padding-left: 25px;
+	padding-left: 25px
 	padding-right: 25px;
 }
 .row{
@@ -71,7 +70,7 @@ p {
 	color: #fff;
 	padding: 8px 30px;
 	margin: 30px 0;
-	transition: 0.5s;
+	transition: background 0.5s;
 	border-radius: 30px
 
 }
@@ -167,6 +166,7 @@ h4{
 
 	color: #555;
 }
+<!-- --------------testimonial----------- -->
 .testimonial{
 	padding-top: 200px;
 }
@@ -190,7 +190,7 @@ h4{
 }
 .fa.fa-quote-left{
 	font-size: 34px;
-	color: #c9a8c2;
+	color: #ff523b;
 }
 .col-3 p{
 	font-size: 12px;
@@ -245,20 +245,20 @@ h4{
 .footer-col-1{
 	flex-basis: 30px;
 }
-
+}
 .footer-col-2{
 	flex-basis: 1;
 	text-align: center;
 
 }
-
+}
 .footer-col-2 img{
 	width: 180px;
 	margin-bottom: 20px;
 
 }
 
-
+}
 .footer-col-3, .footer-col-4{
 	flex-basis: 12%;
 	text-align: center;
