@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile Card Design</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="profile_card">
+		<div class="back_btn">
+			<i class="fas fa-power-off"></i>
+		</div>
+		<div class="settings_btn">
+			<i class="fas fa-cart-plus"></i>
+		</div>
+	
+		<div class="profile_wrap">
+			<div class="profile_img">
+				<img src="leonardo.jpg" alt="profile_pic">
+				<p class="name">Grace Fortune</p>
+				<p class="place">
+					<span class="icon">
+						<i class="fas fa-map-pin"></i>
+					</span>
+					<span class="place_name">Canada</span>
+				</p>
+			</div>
+
+			<div class="profile_icons">
+				<div class="profile_item">
+					<div class="icon"><i class="fas fa-user"></i></div>
+					<div class="title">profil</div>
+					
+				</div>
+				<div class="profile_item">
+					<div class="icon"><i class="fas fa-cart-plus"></i></div>
+					<div class="title">Following</div>
+					<div class="num">19.3M</div>
+				</div>
+				<div class="profile_item">
+					<div class="icon"><i class="fa fa-credit-card"></i></div>
+					<div class="title">Soldes</div>
+					<div class="num"></div>
+				</div>
+			</div>
+
+			<div class="profile_btn">
+				Profil
+			</div>
+		</div>
+	</div>
+	<div class="profile_slider">
+			<ul>
+				<li>
+					<div class="slider_item">
+						<div class="slider_left">
+							<div class="img">
+								<img src="new images/810C7ZgQI+L._AC_UX395_.jpg" alt="">
+							</div>
+							<div class="item">
+								<div class="item_name">
+									Elephant Crisis Fund
+								</div>
+								<div class="item_email">
+									@ElephantCrisis
+								</div>
+							</div>
+						</div>
+						<div class="slider_right">
+							<div class="btn btn_following">visiter</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider_item">
+						<div class="slider_left">
+							<div class="img">
+								<img src="new images/CJ2033-002_sivasdescalzo-Nike-AIr_Zoom-Type-1599048422-1.jpg" alt="">
+							</div>
+							<div class="item">
+								<div class="item_name">
+									Tom Hanks
+								</div>
+								<div class="item_email">
+									@tomhanks
+								</div>
+							</div>
+						</div>
+						<div class="slider_right">
+							<div class="btn btn_follow">visiter</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider_item">
+						<div class="slider_left">
+							<div class="img">
+								<img src="new images/71ag2nbcEUL._AC_UX695_.jpg" alt="">
+							</div>
+							<div class="item">
+								<div class="item_name">
+									TheRevenant
+								</div>
+								<div class="item_email">
+									@RevenantMovie
+								</div>
+							</div>
+						</div>
+						<div class="slider_right">
+							<div class="btn btn_following">visiter</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider_item">
+						<div class="slider_left">
+							<div class="img">
+								<img src="new images/19UARYJT2019GRYGRSND_Black_Pink_Black.webp" alt="">
+							</div>
+							<div class="item">
+								<div class="item_name">
+									Socks and shoes
+								</div>
+								<div class="item_email">
+									@Raytano Market
+								</div>
+							</div>
+						</div>
+						<div class="slider_right">
+							<div class="btn btn_follow">visiter</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider_item">
+						<div class="slider_left">
+							<div class="img">
+								<img src="greta.jpg" alt="">
+							</div>
+							<div class="item">
+								<div class="item_name">
+									Greta Thunberg
+								</div>
+								<div class="item_email">
+									@GretaThunberg
+								</div>
+							</div>
+						</div>
+						<div class="slider_right">
+							<div class="btn btn_following">Following</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+	</div>
+</div>
+	
+<script>
+	var settings_btn = document.querySelector(".settings_btn");
+	var profile_btn = document.querySelector("profile_btn")
+	var profile_slider = document.querySelector(".profile_slider");
+
+	settings_btn.addEventListener("click", function(){
+		profile_slider.classList.toggle("active");
+		this.classList.toggle("active");
+	})
+	profile_btn.addEventListener("click", function(){
+		profile_slider.classList.toggle("active");
+		this.classList.toggle("active");
+	})
+</script>
+
+</body>
+</html>
