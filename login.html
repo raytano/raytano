@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="disign.css">
 </head>
 <body>
-    <div class="box">
-        <form   method="POST" action="#">
-            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Login</h1>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <input type="submit" value="Login">
+    <div  class="box">
+        <form   method="POST">
+            <h1 >Login</h1>
+            <input id="username" type="text" placeholder="Username or Email" required>
+            <input id="password" type="password" placeholder="Password" required>
+            <button type="button" onclick="getInfo()">Click Me</button>
         
         </form>
         <a href="veri.html"><button type="text">Register</button></a>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

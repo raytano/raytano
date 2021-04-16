@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <audio controls="controls" loop="loop" autoplay="autoplay">
+        <source src="fefe.mp3" >
+        <source src="fefe.ogg" >
+
+    </audio>
+    <div class="banner">
+        <video autoplay="" muted="" loop="" >
+            <source src="lolo.mp4" type="video/mp4">
+        </video>
+        
+        
+        <div id="bg"></div> 
+    </div>
+    <script type="text/javascript">
+        let bg = document.querySelector('#bg');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            bg.style.backgroundSize = 100 + value*2 + "px";
+        })
+        let curr_track = document.createElement('audio');
+    </script>
+</body>
+</html>
