@@ -18,7 +18,7 @@ var objPeople = [
 	}
 
 ]
-var objPeopl = [
+#var objPeopl = [
 	{ // Object @ 0 index
 		username: "lyell",
 		password: "lyllou"
@@ -44,7 +44,7 @@ function getInfo() {
 		if(username == objPeopl[i].username && password == objPeopl[i].password) {
             alert("Welcome Lyell, I love you so much (°~~°)")
 			console.log(username + " is logged in!!!")
-            window.location.replace("lyell.html")
+            window.location.replace("index.html")
 			// stop the function if this is found to be true
 			return
 		}
